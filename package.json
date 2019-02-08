@@ -1,8 +1,8 @@
 {
   "name": "lerna-sub",
-  "private": true,
+  "private": false,
   "devDependencies": {},
   "dependencies": {
-    "@newism/common": "0.0.3"
+    "@newism/common": "0.0.7"
   }
 }
