@@ -1,0 +1,27 @@
+{
+    "name": "newism/lerna-sub",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leevi Graham",
+            "email": "leevi@newism.com.au"
+        }
+    ],
+    "require": {
+        "wikimedia/composer-merge-plugin": "^1.4"
+    },
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "node_modules/@newism/*/composer.json"
+            ],
+            "recurse": true,
+            "replace": false,
+            "ignore-duplicates": false,
+            "merge-dev": true,
+            "merge-extra": false,
+            "merge-extra-deep": false,
+            "merge-scripts": false
+        }
+    }
+}
