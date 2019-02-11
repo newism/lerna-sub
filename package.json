@@ -1,8 +1,10 @@
 {
   "name": "lerna-sub",
   "private": false,
-  "devDependencies": {},
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.23.0"
+  },
   "dependencies": {
-    "@newism/common": "0.0.8"
+    "@newism/common": "0.0.9"
   }
 }
